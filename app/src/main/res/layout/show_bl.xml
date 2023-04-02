@@ -14,11 +14,20 @@
         android:textSize="18sp"
         android:textStyle="bold"/>
 
+    <TextView
+        android:id="@+id/blStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BL Status"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:padding="10dp"
         android:alpha="0.8"
         android:background="#03A9F4" />
